@@ -5,5 +5,5 @@
 }
 
 .button_outlined:hover {
-  background-color: var(--bg-primary-2);
+  background-color: var(--secondary-color);
 }
