@@ -1,0 +1,26 @@
+.offering__button {
+  color: var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
+  padding-inline: 40px;
+  padding-block: 16px 14px;
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  text-wrap: nowrap;
+}
+
+.offering__button:hover {
+  color: var(--tertiary-dark-color);
+  border: 2px solid var(--tertiary-dark-color);
+}
+
+.hero__button {
+  z-index: 100;
+}
+
+@media (width > 576px) {
+
+  .hero__button {
+    width: var(--button-default-width);
+  }
+}

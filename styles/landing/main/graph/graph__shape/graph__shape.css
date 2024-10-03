@@ -1,0 +1,13 @@
+.graph__shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: min-content;
+  max-width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.graph__shape > img {
+  max-height: 424.54px;
+}

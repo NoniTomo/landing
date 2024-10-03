@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: var(--transition);
+  font-size: 16px;
+  font-weight: 700;
+  padding-inline: 40px;
+  padding-block: 16px 14px;
+}

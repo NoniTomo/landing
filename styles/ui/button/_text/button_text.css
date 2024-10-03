@@ -1,0 +1,8 @@
+.button_text {
+  background-color: transparent;
+  border: none;
+}
+
+.button_text:hover {
+  background-color: var(--color-footer);
+}

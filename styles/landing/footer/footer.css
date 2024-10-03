@@ -1,0 +1,5 @@
+.footer {
+  background-color: var(--color-footer);
+  height: max-content;
+  padding-inline: 10px;
+}

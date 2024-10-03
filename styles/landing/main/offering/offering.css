@@ -1,0 +1,6 @@
+.offering {
+  --column-gap: 40px;
+
+  position: relative;
+  padding-block: 150px;
+}

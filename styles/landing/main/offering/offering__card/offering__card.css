@@ -1,0 +1,17 @@
+.offering__card {
+  width: 370px;
+  max-height: 520px;
+
+  /*
+    Вообще, задавать высоту не всегда стоит. Обычно, нужной высоты добиваются за счёт нужных отступов flex/grid gap'ов и тп. В итоге у тебя получится карточка такого же размеры, только без жесткой фиксации (если текста будет больше, он не влезет)
+    Если хочешь добавить ограничение по высоте - используй max-height. max-weight/max-height -мастхев для создания адаптивной верстки.
+  */
+}
+
+.offering__card .card__button {
+  height: 54px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.hero__circle {
+  display: none;
+}
+
+@media (width > 992px) {
+
+  .hero__circle {
+    position: absolute;
+    top: -135px;
+    left: -100px;
+    width: 558px;
+    height: 558px;
+    border-radius: 50%;
+    background-color: #336ee1;
+    opacity: 0.5;
+    z-index: 1;
+    display: block;
+  }
+}

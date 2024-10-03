@@ -1,0 +1,6 @@
+.header__link_button {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-inline: 54px;
+}

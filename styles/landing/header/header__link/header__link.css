@@ -1,0 +1,9 @@
+.header__link {
+  --row-gap: 8px;
+
+  box-sizing: border-box;
+  padding-inline: 5px;
+  text-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}

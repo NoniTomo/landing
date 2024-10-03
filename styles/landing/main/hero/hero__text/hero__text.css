@@ -1,0 +1,9 @@
+.hero__text {
+  --column-gap: 40px;
+
+  max-width: 770px;
+  color: var(--color-secondary);
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}

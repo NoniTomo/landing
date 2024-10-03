@@ -1,0 +1,24 @@
+.header__popover_nav {
+  height: 100vh;
+  width: 100vw;
+  top: 25px;
+}
+
+@media (width >= 600px) {
+
+  .header__popover_nav {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (width >= 1350px) {
+
+  .header__popover_nav {
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}

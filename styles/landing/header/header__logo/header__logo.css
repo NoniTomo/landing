@@ -1,0 +1,9 @@
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--bg-primary);
+}
+
+.header__logo:hover {
+  color: var(--bg-primary-2);
+}

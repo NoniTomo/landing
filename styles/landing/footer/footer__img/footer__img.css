@@ -1,0 +1,10 @@
+.footer__img {
+  height: 30px;
+}
+
+@media (width > 576px) {
+
+  .footer__img {
+    height: min-content;
+  }
+}

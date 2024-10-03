@@ -1,0 +1,28 @@
+.header__nav {
+  position: absolute;
+  right: 50px;
+  left: 0;
+  top: 70px;
+  width: 250px;
+  height: 100%;
+}
+
+@media (width >= 600px) {
+
+  .header__nav {
+    left: auto;
+    display: none;
+  }
+}
+
+@media (width >= 1350px) {
+
+  .header__nav {
+    position: static;
+    box-sizing: border-box;
+    display: block !important;
+    height: 100%;
+    width: 830px;
+    gap: 24px;
+  }
+}

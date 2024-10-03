@@ -1,0 +1,7 @@
+.offering__text {
+  --column-gap: 24px;
+
+  max-width: 770px;
+  margin-block: auto;
+  padding-inline: 10px;
+}

@@ -1,0 +1,10 @@
+.back__background {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}

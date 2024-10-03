@@ -1,0 +1,16 @@
+.footer__services {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+.footer__services p:first-child {
+  font-weight: 700;
+}
+
+@media (width > 576px) {
+
+  .footer__services {
+    grid-column: 6 / 8;
+    grid-row: 1/ 2;
+  }
+}

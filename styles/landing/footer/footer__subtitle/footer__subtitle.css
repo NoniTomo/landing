@@ -1,0 +1,9 @@
+.footer__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.footer__subtitle:hover {
+  color: var(--bg-primary);
+}

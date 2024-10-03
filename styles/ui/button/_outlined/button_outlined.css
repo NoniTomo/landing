@@ -1,0 +1,9 @@
+.button_outlined {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--bg-primary);
+}
+
+.button_outlined:hover {
+  background-color: var(--bg-primary-2);
+}

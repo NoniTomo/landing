@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="description" content="Invest profitably and securely" />
+    <meta name="keywords" content="investment, finance, reliably, benefits" />
+    <meta property="og:title" content="NEXT INVEST" />
+    <meta property="og:description" content="Landing page" />
+    <meta property="og:image" content="./image.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.ico" />
+    <title>NEXT INVEST | Invest profitably and securely</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" href="/icon.ico" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header__logo" aria-label="next-invest logo">NEXT INVEST</a>
+
+      <button
+        class="button button_text header__burger-button"
+        id="header-burger-button"
+        aria-label="Open navigation menu"
+        type="menu"
+      >
+        <img src="./icons/burger.svg" alt="menu" height="100%" />
+      </button>
+
+      <nav class="popover header__nav" id="id-header-nav" aria-label="General">
+        <div class="popover__content header__popover_nav">
+          <ul class="header__links">
+            <li id="header-link-opportunities-menu">
+              <button
+                class="button button_text header__link row"
+                id="opportunities-button"
+                aria-label="open investment opportunities"
+                type="menu"
+              >
+                Investment Opportunities
+                <img
+                  src="./icons/caretRight.svg"
+                  class="header__caret"
+                  id="opportunities-caret"
+                  alt="opportunity select"
+                  height="100%"
+                />
+              </button>
+              <div class="popover header__popover" id="opportunities-menu">
+                <div class="popover__content">
+                  <ul class="header__menu column">
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/services"
+                        aria-label="services"
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/investment-plans"
+                        aria-label="investment plans"
+                        >Investment Plans</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/markets-and-analytics"
+                        aria-label="markets and analytics"
+                        >Markets and Analytics</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/customer-support"
+                        aria-label="customer support"
+                        >Customer Support</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li id="header-link-how-it-works-menu">
+              <button
+                class="button button_text header__link row"
+                id="how-it-works-button"
+                aria-label="how it works"
+                type="menu"
+              >
+                How it works
+                <img
+                  src="./icons/caretRight.svg"
+                  alt="how it works select"
+                  id="how-it-works-caret"
+                  class="header__caret"
+                  height="100%"
+                />
+              </button>
+              <div class="popover header__popover" id="how-it-works-menu">
+                <div class="popover__content">
+                  <ul class="header__menu column">
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/investment-process"
+                        aria-label="investment process"
+                        >Investment Process</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/risk-management"
+                        aria-label="risk management"
+                        >Risk Management</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="button button_text header__link row"
+                        href="/reporting-and-analytics"
+                        aria-label="reporting and analytics"
+                        >Reporting and Analytics</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href="/about-us"
+                class="button button_text header__link row"
+                id="about_us_button"
+                aria-label="about us"
+              >
+                About us
+              </a>
+            </li>
+            <li>
+              <a href="/auth" class="button button_contained header__link row header__link_button"
+                >LOGIN</a
+              >
+            </li>
+            <li>
+              <a
+                href="/auth"
+                class="button button_outlined header__link row header__link_button header__link_register"
+                aria-label="register"
+              >
+                REGISTER
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="wrapper">
+      <section class="section hero">
+        <div class="section__content">
+          <div class="hero__text column">
+            <h1 class="hero__title">Meaningful investments in Main Street businesses</h1>
+            <p class="hero__subtitle">
+              Browse vetted investment offerings in communities all over the US.
+            </p>
+            <a href="/get-stared" class="button button_contained hero__button" aria-label="get stared">
+              GET STARTED
+            </a>
+            <div class="hero__circle"></div>
+          </div>
+        </div>
+
+        <div class="hero__snakes">
+          <img src="/images/shapes/snakes.png" alt="decoration-snakes" />
+        </div>
+      </section>
+
+      <section class="section offering column">
+        <div class="section__content offering__content column">
+          <div class="offering__text column">
+            <h2 class="offering__title title">Offerings open for investment</h2>
+            <p class="offering__subtitle subtitle">
+              Explore pre-vetted investment opportunities available in a growing number of industry
+              categories.
+            </p>
+          </div>
+          <ul class="offering__cards" id="offering-cards"></ul>
+          <a
+            href="/all-project"
+            class="button button_outlined offering__button"
+            aria-label="view all projects"
+          >
+            VIEW ALL PROJECTS
+          </a>
+        </div>
+        <div class="offering__shape">
+          <img src="/images/shapes/shape.png" alt="shape" />
+        </div>
+      </section>
+      <section class="section graph">
+        <div class="section__content graph__content">
+          <div class="graph__text column">
+            <div class="graph__icon">
+              <img src="/icon.svg" alt="graph-icon" />
+            </div>
+            <h2 class="graph__title title">$7M+ paid out to investors</h2>
+            <p class="graph__subtitle subtitle_grey subtitle">
+              Next Invest has already paid out over $7M in cash returns to investors. Earn potential cash
+              payments through unique revenue-share and debt financing investments.
+            </p>
+          </div>
+          <div class="graph__chart-container">
+            <canvas id="chart"> </canvas>
+          </div>
+        </div>
+        <div class="graph__shape shape">
+          <img src="./icons/shapeGraph.svg" alt="shape" />
+        </div>
+        <ul class="graph__circles">
+          <li class="circle" id="circle-1"></li>
+          <li class="circle" id="circle-2"></li>
+          <li class="circle" id="circle-3"></li>
+          <li class="circle" id="circle-4"></li>
+        </ul>
+        <ul class="graph__points">
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+          <li class="point"></li>
+        </ul>
+      </section>
+      <section class="section cto">
+        <div class="section__content cto__content">
+          <div class="cto__text column">
+            <h2 class="cto__title title">Looking to raise capital for your growing business?</h2>
+            <p class="cto__subtitle subtitle_grey subtitle">
+              Whether expanding or opening a brand-new concept, we make it easy to raise money from
+              thousands of local investors.
+            </p>
+            <a
+              href="/apply-online"
+              class="button button_contained cto__button"
+              aria-label="apply-online"
+            >
+              APPLY ONLINE
+            </a>
+          </div>
+          <div class="cto__image">
+            <img src="/images/cto.png" alt="cto" />
+          </div>
+        </div>
+        <div class="cto__shape">
+          <img src="/images/shapes/shape.png" alt="shape" />
+        </div>
+      </section>
+    </main>
+    <footer class="section footer">
+      <div class="section__content footer__content">
+        <div class="footer__element footer__logo column">
+          <div class="footer__title">NEXT INVEST</div>
+          <div class="footer__subtitle">Copyright © 2020. LogoIpsum. All rights reserved.</div>
+        </div>
+        <div class="footer__services footer__element footer__list column">
+          <div class="footer__title">Services</div>
+          <a href="./email-marketing" class="footer__subtitle">Email Marketing</a>
+          <a href="./campaigns" class="footer__subtitle">Campaigns</a>
+          <a href="./branding" class="footer__subtitle">Branding</a>
+          <a href="./offline" class="footer__subtitle">Offline</a>
+        </div>
+        <div class="footer__about footer__element footer__list column">
+          <div class="footer__title">Our Story</div>
+          <a href="./benefits" class="footer__subtitle">Benefits</a>
+          <a href="./team" class="footer__subtitle">Team</a>
+          <a href="./careers" class="footer__subtitle">Careers</a>
+        </div>
+        <div class="back footer__element">
+          <button
+            class="button button_contained back__background"
+            id="back-to-top"
+            aria-label="back to top"
+            type="button"
+          >
+            <img src="/icons/caretRight.svg" alt="back to top" class="back__icon" />
+          </button>
+        </div>
+        <div class="footer__element subscribe">
+          <div class="subtitle">Subscribe to our newsletter</div>
+          <form class="subscribe__input-container">
+            <input
+              aria-label="email"
+              class="input subscribe__input"
+              type="email"
+              placeholder="Email address"
+            />
+            <button type="submit" class="button button_contained subscribe__button">
+              <img src="./icons/caretRight.svg" alt="submit email" />
+            </button>
+          </form>
+        </div>
+        <div class="footer__socials row">
+          <a href="./" aria-label="facebook"
+            ><img class="footer__img" src="./icons/facebook.svg" alt="facebook"
+          /></a>
+          <a href="./" aria-label="twitter"
+            ><img class="footer__img" src="./icons/twitter.svg" alt="twitter"
+          /></a>
+          <a href="./" aria-label="instagram"
+            ><img class="footer__img" src="./icons/instagram.svg" alt="instagram"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

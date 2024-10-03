@@ -1,0 +1,16 @@
+.hero__button {
+  padding-inline: 40px;
+  padding-block: 16px 14px;
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  text-wrap: nowrap;
+  z-index: 100;
+}
+
+@media (width > 576px) {
+
+  .hero__button {
+    width: var(--button-default-width);
+  }
+}

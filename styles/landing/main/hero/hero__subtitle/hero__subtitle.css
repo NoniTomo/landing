@@ -1,0 +1,6 @@
+.hero__subtitle {
+  font-size: var(--subtitle-font-size);
+  line-height: var(--subtitle-line-height);
+  font-weight: var(--subtitle-font-weight);
+  z-index: 10;
+}

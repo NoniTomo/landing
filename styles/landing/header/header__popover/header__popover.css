@@ -1,0 +1,29 @@
+@import url('./_nav/header__popover_nav.css');
+
+.header__popover {
+  position: relative;
+}
+
+.header__popover .popover__content {
+  position: static;
+  max-width: max-content;
+  min-width: 100%;
+}
+
+@media (width >= 600px) {
+
+  .header__popover .popover__content {
+    position: absolute;
+    right: 235px;
+    top: -60px;
+  }
+}
+
+@media (width >= 1350px) {
+
+  .header__popover .popover__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

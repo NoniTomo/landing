@@ -1,0 +1,14 @@
+@import url('./back__background/back__background.css');
+@import url('./back__icon/back__icon.css');
+
+.back {
+  grid-column: 2 / 3;
+}
+
+@media (width > 576px) {
+
+  .back {
+    grid-column: 10 / 11;
+    grid-row: 1/ 2;
+  }
+}

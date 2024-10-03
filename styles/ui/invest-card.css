@@ -1,0 +1,134 @@
+.card {
+  box-shadow: 3px 3px 20px 10px rgb(0 0 0 / 10%);
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: var(--color-secondary);
+}
+
+.card__background {
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
+}
+
+.card__background_hidden {
+  display: none;
+}
+
+.card__content {
+  --column-gap: 24px;
+
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.card__tags {
+  --row-gap: 4px;
+
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  max-width: 322px;
+  flex-wrap: wrap;
+}
+
+.card__tag {
+  text-transform: uppercase;
+  background-color: var(--color-secondary);
+  opacity: 0.8;
+  padding: 8px 12px 6px;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+.card__name {
+  --column-gap: 8px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: var(--title-font-weight);
+  line-height: 32px;
+  color: var(--color-text);
+}
+
+.card__subtitle {
+  font-size: 16px;
+  font-weight: var(--subtitle-font-weight);
+  line-height: 24px;
+  color: var(--color-text-secondary);
+}
+
+.card__button {
+  background-color: var(--tertiary-color);
+}
+
+.card__button:hover {
+  background-color: var(--tertiary-dark-color);
+}
+
+.progress-bar {
+  --column-gap: 10px;
+
+  width: 100%;
+}
+
+.progress-bar__element {
+  width: 100%;
+  height: 8px;
+  background-color: var(--color-footer);
+}
+
+.progress-bar__progress {
+  height: 100%;
+  width: 60%;
+  background-color: var(--bg-primary);
+}
+
+.card__description {
+  font-size: 16px;
+  font-weight: var(--subtitle-font-weight);
+  line-height: 24px;
+  color: var(--color-text);
+}
+
+.progress-bar__description_first-word {
+  color: var(--bg-primary);
+}
+
+.card__divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-footer);
+}
+
+.card__details {
+  --column-gap: 16px;
+
+  width: 100%;
+}
+
+.card__details_item {
+  --row-gap: 8px;
+  --card-details-line-height: 24px;
+  --card-details-font-size: 16px;
+
+  justify-content: space-between;
+}
+
+.card__details_item p:first-child {
+  line-height: var(--card-details-line-height);
+  font-size: var(--card-details-font-size);
+  font-weight: 400;
+}
+
+.card__details_item p:last-child {
+  line-height: var(--card-details-line-height);
+  font-size: var(--card-details-font-size);
+  font-weight: 700;
+}

@@ -1,0 +1,6 @@
+.header__caret {
+  transform: rotate(90deg);
+  filter: brightness(0) saturate(100%) invert(14%) sepia(58%) saturate(25%) hue-rotate(111deg)
+    brightness(98%) contrast(87%);
+  transition: var(--transition);
+}

@@ -1,0 +1,6 @@
+.cto__text {
+  --column-gap: 40px;
+
+  color: var(--color-secondary);
+  position: relative;
+}

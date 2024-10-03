@@ -1,0 +1,14 @@
+.header__menu {
+  --column-gap: 16px;
+
+  padding-inline: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (width >= 1350px) {
+
+  .header__menu {
+    padding-inline: 0;
+  }
+}

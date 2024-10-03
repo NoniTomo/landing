@@ -1,0 +1,23 @@
+.graph__points {
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+  grid-template-columns: repeat(3, min-content);
+  grid-template-rows: repeat(4, min-content);
+  gap: 10px;
+  display: none;
+}
+
+.graph__points .point {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: var(--color-text);
+}
+
+@media (width > 992px) {
+
+  .graph__points {
+    display: grid;
+  }
+}

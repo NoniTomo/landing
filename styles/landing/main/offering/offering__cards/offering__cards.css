@@ -1,0 +1,24 @@
+.offering__cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  z-index: 11;
+}
+
+@media (width > 768px) {
+
+  .offering__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (width > 1200px) {
+
+  .offering__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}

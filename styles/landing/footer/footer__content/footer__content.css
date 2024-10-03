@@ -1,0 +1,15 @@
+.footer__content {
+  padding-block: 40px;
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  grid-template-rows: 1fr;
+  gap: 20px 40px;
+}
+
+@media (width > 576px) {
+
+  .footer__content {
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: max-content max-content;
+  }
+}

@@ -1,0 +1,41 @@
+.graph__circles {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  right: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 3px solid var(--bg-primary);
+}
+
+#circle-1 {
+  position: absolute;
+  height: 148.36px;
+  width: 148.36px;
+}
+
+#circle-2 {
+  position: absolute;
+  height: 127.62px;
+  width: 127.62px;
+}
+
+#circle-3 {
+  position: absolute;
+  height: 106.68px;
+  width: 106.68px;
+}
+
+#circle-4 {
+  position: absolute;
+  height: 86.14px;
+  width: 86.14px;
+}

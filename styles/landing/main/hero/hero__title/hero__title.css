@@ -1,0 +1,15 @@
+.hero__title {
+  font-size: 38px;
+  line-height: 52px;
+  font-weight: var(--title-font-weight);
+  z-index: 10;
+}
+
+@media (width > 576px) {
+
+  .hero__title {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: var(--title-font-weight);
+  }
+}

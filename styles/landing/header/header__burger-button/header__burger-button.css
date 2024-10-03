@@ -1,0 +1,12 @@
+.header__burger-button {
+  position: absolute;
+  padding: 5px;
+  right: 44px;
+}
+
+@media (width >= 1350px) {
+
+  .header__burger-button {
+    display: none;
+  }
+}

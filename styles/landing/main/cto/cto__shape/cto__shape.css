@@ -1,0 +1,12 @@
+.cto__shape {
+  position: absolute;
+  width: 306px;
+  height: 301px;
+  right: 0;
+  top: 145px;
+  z-index: 1;
+}
+
+.cto__shape img {
+  width: 100%;
+}

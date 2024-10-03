@@ -1,0 +1,12 @@
+.offering__shape {
+  position: absolute;
+  width: 306px;
+  height: 301px;
+  left: 39px;
+  top: 50%;
+  transform: translateZ(-10px);
+}
+
+.offering__shape img {
+  height: 100%;
+}
